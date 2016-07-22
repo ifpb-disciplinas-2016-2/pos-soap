@@ -12,5 +12,6 @@
     <modules>
         <module>client-java</module>
         <module>server-java</module>
+        <module>client-node</module>
     </modules>
 </project>
