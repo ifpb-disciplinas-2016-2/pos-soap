@@ -1,0 +1,19 @@
+{
+  "name": "pos-ws",
+  "version": "1.0.0",
+  "description": "Exemplo de uso de cliente Node para Web Services SOAP",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/ricardojob/cere-ifpb.git"
+  },
+  "author": "Ricardo Job",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/ricardojob/cere-ifpb#readme",
+  "devDependencies": {
+    "soap": "~0.16.0"
+  }
+}
