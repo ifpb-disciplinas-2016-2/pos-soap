@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/ricardojob/cere-ifpb.git"
+    "url": "git+https://github.com/ifpb-disciplinas-2016-1/pos-soap.git"
   },
   "author": "Ricardo Job",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/ricardojob/cere-ifpb#readme",
+  "homepage": "https://github.com/ifpb-disciplinas-2016-1/pos-soap",
   "devDependencies": {
     "soap": "~0.16.0"
   }
