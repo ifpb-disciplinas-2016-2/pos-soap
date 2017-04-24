@@ -1,7 +1,7 @@
 var soap = require('soap');
-var url = 'http://localhost:8088/server-java/CalculadoraService?WSDL';
+var url = 'http://localhost:8080/server-java/CalculadoraService?WSDL';
 var primeiro = {'primeiro':2, 'segundo':4};
-var segundo = {arg0:29, arg1:4};
+var segundo = {arg0:9, arg1:4};
 soap.WSDL.prototype.ignoredNamespaces = [];
 soap.createClient(url, function(err, client) {
     client.somarCalc(primeiro, function(err,result,res){

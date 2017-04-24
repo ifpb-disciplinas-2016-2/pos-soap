@@ -35,7 +35,7 @@
                         <configuration>
                             <packageName>pos.soap.calculadora</packageName>
                             <wsdlUrls>
-                                <wsdlLocation>http://localhost:8088/server-java/CalculadoraService?WSDL</wsdlLocation>
+                                <wsdlLocation>http://localhost:8080/server-java/CalculadoraService?WSDL</wsdlLocation>
                             </wsdlUrls> 
                             <verbose>true</verbose>
                             <sourceDestDir>${basedir}/src/main/java</sourceDestDir>
@@ -57,7 +57,7 @@
                         <configuration>
                             <packageName>pos.soap.listagem</packageName>
                             <wsdlUrls>
-                                <wsdlLocation>http://localhost:8088/server-java/ListagemPessoaService?WSDL</wsdlLocation>
+                                <wsdlLocation>http://localhost:8080/server-java/ListagemPessoaService?WSDL</wsdlLocation>
                             </wsdlUrls> 
                             <verbose>true</verbose>
                             <sourceDestDir>${basedir}/src/main/java</sourceDestDir>
@@ -79,7 +79,7 @@
                         <configuration>
                             <packageName>pos.soap.cadastro</packageName>
                             <wsdlUrls>
-                                <wsdlLocation>http://localhost:8088/server-java/CadastroZooService?WSDL</wsdlLocation>
+                                <wsdlLocation>http://localhost:8080/server-java/CadastroZooService?WSDL</wsdlLocation>
                             </wsdlUrls> 
                             <verbose>true</verbose>
                             <sourceDestDir>${basedir}/src/main/java</sourceDestDir>

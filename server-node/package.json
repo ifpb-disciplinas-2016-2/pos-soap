@@ -1,0 +1,19 @@
+{
+  "name": "pos-ws",
+  "version": "1.0.0",
+  "description": "Exemplo de uso de cliente Node para Web Services SOAP",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifpb-disciplinas-2016-1/pos-soap.git"
+  },
+  "author": "Ricardo Job",
+  "license": "MIT",
+  "homepage": "https://github.com/ifpb-disciplinas-2016-1/pos-soap",
+  "devDependencies": {
+    "soap-server": "~0.1.0"
+  }
+}

@@ -14,6 +14,7 @@ public class ConsumerCadastroZoo {
     public static void main(String[] args) {
         CadastroZooService service = new CadastroZooService();
         CadastroZoo cadastro = service.getCadastroZooPort();
+        
         System.out.println("--Listagem--");
         cadastro.listarAnimal().forEach(animalResult -> {
             System.out.println(
@@ -21,8 +22,9 @@ public class ConsumerCadastroZoo {
                             animalResult.getId(), animalResult.getNome(), animalResult.getRaca())
             );
         });
+        
         Animal animal = new Animal();
-        animal.setId(0);
+        animal.setId(90);
         animal.setNome("Totó");
         animal.setRaca("pitch");
         

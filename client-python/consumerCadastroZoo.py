@@ -1,6 +1,6 @@
 from suds.client import Client
 from suds.cache import NoCache
-url="http://localhost:8088/server-java/CadastroZooService?WSDL"
+url="http://localhost:8080/server-java/CadastroZooService?WSDL"
 client = Client(url, cache=NoCache())
 print client
 print 'Lista: ', client.service.listarAnimal()

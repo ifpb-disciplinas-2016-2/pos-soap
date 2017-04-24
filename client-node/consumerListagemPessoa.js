@@ -1,5 +1,5 @@
 var soap = require('soap');
-var url = 'http://localhost:8088/server-java/ListagemPessoaService?WSDL';
+var url = 'http://localhost:8080/server-java/ListagemPessoaService?WSDL';
 soap.WSDL.prototype.ignoredNamespaces = [];
 var pessoa = {
     'nome':'Chaves',
