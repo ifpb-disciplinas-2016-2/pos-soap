@@ -3,6 +3,7 @@
 /server-java/nb-configuration.xml
 /client-java/target/
 /client-node/node_modules/
+/server-node/node_modules/
 client-java/src/main/java/pos/soap/listagem/
 client-java/src/main/java/pos/soap/calculadora/
 client-java/src/main/java/pos/soap/cadastro/
